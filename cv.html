@@ -37,6 +37,9 @@ h1,h2,h3,.n{font-family:"Bricolage Grotesque",system-ui,sans-serif}
 .loc{font-size:14px; opacity:.85}
 .chips{display:flex; flex-wrap:wrap; gap:8px; margin-top:14px}
 .chips span{background:rgba(255,255,255,.16); border:1px solid rgba(255,255,255,.3); padding:3px 12px; border-radius:999px; font-size:13px; font-weight:700}
+.link-bar{display:flex; flex-wrap:wrap; gap:10px; margin-top:18px}
+.link-bar a{display:inline-flex; align-items:center; justify-content:center; text-decoration:none; font-weight:700; font-size:14px; padding:10px 14px; border-radius:999px; border:1px solid rgba(255,255,255,.38); color:#fff; background:rgba(255,255,255,.08); transition:.2s ease}
+.link-bar a:hover{background:rgba(255,255,255,.18)}
 .btns{display:flex; flex-wrap:wrap; gap:10px; margin-top:20px}
 .btn{text-decoration:none; font-weight:700; font-size:15px; padding:12px 20px; border-radius:999px}
 .btn.p{background:var(--amber); color:#251a00}
@@ -88,10 +91,15 @@ h2:before{content:""; width:6px; height:22px; border-radius:3px; background:line
         <p class="role">Cyber Security Graduate</p>
         <p class="loc">Dar es Salaam, Tanzania</p>
         <div class="chips"><span>Available for internship</span><span>Kiswahili &amp; English</span></div>
+        <div class="link-bar" aria-label="Quick links">
+          <a href="https://github.com/samirally913-beep" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://wa.me/255700000000" target="_blank" rel="noopener">WhatsApp</a>
+          <a href="mailto:amina@example.com">Email</a>
+        </div>
       </div>
     </div>
     <nav class="btns" aria-label="Contact">
-      <a class="btn p" href="https://wa.me/255700000000">Chat on WhatsApp</a>
+      <a class="btn p" href="https://github.com/samirally913-beep/samir-app" target="_blank" rel="noopener">View profile link</a>
       <a class="btn s" href="mailto:amina@example.com">Send email</a>
     </nav>
   </header>
